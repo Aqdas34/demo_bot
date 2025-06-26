@@ -30,7 +30,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --noconsole --onefile --icon=logo.ico RavaDynamics.py
+          pyinstaller --noconsole --onefile --icon=logo.ico --name "AutoFYN URL Bot" RavaDynamics.py
 
       - name: Create installer using Inno Setup
         run: |
