@@ -1,0 +1,24 @@
+RAVA Dynamics License Agreement
+
+PLEASE READ THIS LICENSE AGREEMENT CAREFULLY. BY USING THIS SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT.
+
+    License Grant: RAVA Dynamics grants you a non-exclusive, non-transferable, limited license to use the software AutoFYN - Google Search Bot.
+
+    Usage Restrictions:
+    a. Access to this software is granted to you as an employee of BowPoint and is to be used strictly for work purposes. Any misuse, including using it for personal projects or furthering non-work-related matters, is strictly prohibited.
+    b. Usage limits may apply. Always check with your manager before running a scrape of high volume (2,000+ search terms).
+    c. You may not decompile, reverse engineer, disassemble, or otherwise reduce the software to human-perceivable form.
+
+    Termination: RAVA Dynamics asserts the right to terminate access at any time. You are free to voluntarily delete the software at any time.
+
+    Disclaimer of Warranty: The software is provided "as is" without warranty of any kind, express or implied.
+
+    Limitation of Liability: In no event will RAVA Dynamics be liable for any damages arising from the use of this software.
+
+    Billing for Misuse: If you are found to be using proxy bandwidth for personal scraping, you will be billed at a rate of $1 per request for every unapproved request by your employer, BowPoint, as well as $1 per request by RAVA Dynamics for each of those same requests, for a total of $2 for every unapproved request.
+
+    Violation Penalty:
+    a. Minor Violations: Any minor violation of these terms, such as unapproved scraping, shall result in a penalty of up to $10,000 in addition to any request violation charges, invoiced directly to the employee address on file.
+    b. Major Violations: Theft of code, intellectual property, or any other severe violation of these terms shall result in a penalty of $1,000,000 in addition to any request violation charges, invoiced directly to the employee address on file.
+
+By installing or using this software, you acknowledge that you have read and understand this license agreement and agree to be bound by its terms.

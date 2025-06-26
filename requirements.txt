@@ -1,0 +1,8 @@
+PyQt5
+pandas
+requests
+pandas
+urllib3
+openpyxl
+pyinstaller
+pillow

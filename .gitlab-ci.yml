@@ -1,0 +1,26 @@
+stages:
+  - build
+  - package
+
+variables:
+  OUTPUT_DIR: "Output"
+
+build_exe:
+  stage: build
+  script:
+    - pip install -r requirements.txt
+    - pyinstaller --noconsole --onefile --icon=logo.ico RavaDynamics.py
+  artifacts:
+    paths:
+      - dist/AutoFYN URL Bot.exe
+
+package_installer:
+  stage: package
+  tags:
+    - windows  # Make sure your GitLab runner is registered with this tag
+  script:
+    - '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" AutoFYN.iss'
+  artifacts:
+    paths:
+      - Output/AutoFYN\ URL\ Bot\ Installer.exe
+    expire_in: 1 week
