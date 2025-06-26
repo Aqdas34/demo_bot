@@ -32,6 +32,11 @@ jobs:
         run: |
           pyinstaller --noconsole --onefile --icon=logo.ico --name "AutoFYN URL Bot" RavaDynamics.py
 
+      - name: Copy version.txt and res folder into dist/
+        run: |
+          copy version.txt dist\
+          xcopy res dist\res\ /E /I /Y
+
       - name: Create installer using Inno Setup
         run: |
           & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "s.iss"
